@@ -7,7 +7,7 @@ const OPEN_VOLUNTEERING_API = "https://query20251112104247-h6affebdd4gfa4bs.ukso
 const server = new McpServer({ name: "mcpservername1", version: "0.0.0" });
 
 server.registerTool(
-  "searchVolunteeringOrganisation",
+  "searchVolunteeringOrganisationsByName",
   {
     title: "Search Volunteer Involving Organisations (VIO) by name",
     description:
@@ -53,7 +53,7 @@ server.registerTool(
 );
 
 server.registerTool(
-  "retrieveVolunteeringOrganisationById",
+  "getVolunteeringOrganisationById",
   {
     title: "Get Volunteer Involving Organisations (VIO) details by ID",
     description:
