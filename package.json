@@ -1,0 +1,32 @@
+{
+  "name": "solid-mcp",
+  "version": "1.0.0",
+  "description": "A Model Context Protocol (MCP) server for Claude",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "ai",
+    "server"
+  ],
+  "author": "Matthieu Bosquet",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.21.0",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/inspector": "^0.17.2",
+    "@types/node": "24.10.0",
+    "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

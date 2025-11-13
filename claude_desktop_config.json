@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "openvolunteering-mcp-server": {
+      "command": "node",
+      "args": ["/Users/matthieu/GitHub/openvolunteering/mcp-server/dist/index.js"],
+      "env": {}
+    }
+  }
+}
